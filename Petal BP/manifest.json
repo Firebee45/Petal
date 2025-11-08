@@ -1,0 +1,52 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Petal V0.0.1",
+    "description": "Petal: An addon aimed to help aid in the design and testing of TMC builds mainly focusing on storage related builds",
+    "uuid": "db6dde48-c46d-4f85-81cd-e14f127f4476",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "1fb92b6f-de4a-4f40-b2de-872cf029c3b1",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "uuid": "70f33c8c-ac31-4b4e-87e1-5c04542db95d",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/debug-utilities",
+      "version": "beta"
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "beta"
+    }
+  ],
+  "metadata": {
+    "product_type": "addon"
+  }
+}
